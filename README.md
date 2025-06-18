@@ -14,9 +14,3 @@ Features:
 - Calls Groq’s Gemma2-9B-It model via API key
 - Traces LLM activity using LANGCHAIN_TRACING_V2
 - Async support for real-time message handling
-
-How It Works:
-- You tag the bot with a topic: @BotUsername coffee
-- The bot detects the topic and builds a LangChain prompt
-- LangChain invokes the Groq LLM and parses the result
-- You receive a joke instantly in the chat
